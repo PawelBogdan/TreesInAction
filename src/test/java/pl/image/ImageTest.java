@@ -18,7 +18,7 @@ public class ImageTest {
         iff.display();
 
         //TODO: dlaczego on nie czeka???
-//        TimeUnit.SECONDS.sleep(2);
+        TimeUnit.SECONDS.sleep(2);
 
 
         System.out.println(Cost.get(img, 0, img.getWidth(), 0, img.getHeight()));
